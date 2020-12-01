@@ -53,3 +53,18 @@ li a
     float:left;
 }
 /*============================{Nav Bar [End]}============================*/
+
+/*============================{clickable div [start]}============================*/
+.pop_up_div{
+    margin: 80px;
+}
+.pop_up_div img{
+    width: 80%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/*============================{clickable div [end]}============================*/
