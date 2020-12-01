@@ -58,12 +58,20 @@ li a
 .pop_up_div{
     margin: 80px;
 }
+
 .pop_up_div img{
     width: 80%;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.pop_up_div h1{
+    position: relative;
+    display: inline;
+    top: -110px;
+    left: 200px;
 }
 
 
