@@ -87,8 +87,8 @@ width: 20%;
 margin-top: 2%;
 margin-left: auto;
 margin-right: auto;
-background-color: rgb(240, 227, 218);
-border: black solid 2px;
+background-color: rgb(155, 101, 62);;
+border: white 5px solid;
 }
 
 .aboutus img {
@@ -96,6 +96,7 @@ border: black solid 2px;
     margin-left: 5%;
     text-align: left;
     display: inline;
+    border: white 15px solid;
 }
 
 .aboutus p{
@@ -120,6 +121,17 @@ border: black solid 2px;
     content: "";
     display: table;
     clear: both;
+}
+
+.aboutus p {
+    background-color: rgb(155, 101, 62);
+    border: white solid 5px;
+    width: auto;
+    display: block;
+    margin-right: 25%;
+    font-size: 18px;
+    padding: 10px;
+
 }
   
 
