@@ -80,6 +80,9 @@ li a
 
 /*============================{About Us CSS [Start]}============================*/
 
+
+
+/*===CSS for the features and items in the web page===*/
 .aboutus h1{
 text-align: center;
 padding: 1%;
@@ -99,11 +102,20 @@ border: white 5px solid;
     border: white 15px solid;
 }
 
-.aboutus p{
-    display: inline;
+.aboutus p {
+    background-color: rgb(155, 101, 62);
+    border: white solid 5px;
+    width: auto;
+    display: block;
+    margin-right: 25%;
+    font-size: 18px;
+    padding: 10px;
     text-align: left;
+
 }
 
+
+/*===CSS for the 2 columns on the webpage===*/
 .aboutuscolumn {
     float: left;
     padding: 10px;
@@ -121,17 +133,6 @@ border: white 5px solid;
     content: "";
     display: table;
     clear: both;
-}
-
-.aboutus p {
-    background-color: rgb(155, 101, 62);
-    border: white solid 5px;
-    width: auto;
-    display: block;
-    margin-right: 25%;
-    font-size: 18px;
-    padding: 10px;
-
 }
   
 
