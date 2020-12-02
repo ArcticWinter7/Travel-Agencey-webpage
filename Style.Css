@@ -76,3 +76,58 @@ li a
 
 
 /*============================{clickable div [end]}============================*/
+
+
+/*============================{About Us CSS [Start]}============================*/
+
+.aboutus h1{
+text-align: center;
+padding: 1%;
+width: 20%;
+margin-top: 2%;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(240, 227, 218);
+border: black solid 2px;
+}
+
+.aboutus img {
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    display: inline;
+}
+
+.aboutus p{
+    display: inline;
+    text-align: left;
+}
+
+.aboutuscolumn {
+    float: left;
+    padding: 10px;
+}
+
+.aboutuscolumn.img {
+    width: 30%;
+}
+.aboutuscolumn.text {
+    width: 66%;
+}
+  
+
+.aboutusrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+
+@media screen and (max-width:600px) {
+    .aboutuscolumn {
+      width: 100%;
+    }
+}
+
+
+/*============================{About Us CSS [End]}============================*/
