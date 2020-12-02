@@ -77,6 +77,14 @@ li a
 
 /*============================{clickable div [end]}============================*/
 
+#mySearch {
+    display: block;
+    margin: 30px auto;
+    width: 50%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
 
 /*============================{About Us CSS [Start]}============================*/
 
