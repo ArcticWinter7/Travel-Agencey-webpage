@@ -13,3 +13,29 @@ function doSearch() {
         }
       }
 };
+
+function displayTripModal(divindex) {
+    var tripName = document.getElementById('trip-name');
+    tripName.innerHTML = document.getElementsByClassName('trip-name')[divindex].innerHTML;
+    var tripCost = document.getElementById('trip-cost');
+    tripCost.innerHTML = document.getElementsByClassName('trip-cost')[divindex].innerHTML;
+    var tripDescription = document.getElementById('trip-description');
+    tripDescription.innerHTML = document.getElementsByClassName('trip-description')[divindex].innerHTML;
+
+    var tripActivities = document.getElementById('trip-activities');
+    tripActivities.innerHTML = "";
+    var tripActivitiesString = document.getElementsByClassName('trip-activities')[divindex].innerHTML;
+    var tripActivitiesArray = tripActivitiesString.split('; ');
+    tripActivitiesArray.forEach(activity => {
+        tripActivities.innerHTML += `<input type="checkbox">\n<label>${activity}</label>\n<br/>\n`;
+    });
+    var modal = document.getElementById('id01');
+    modal.style.display = "block";
+}
+
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
