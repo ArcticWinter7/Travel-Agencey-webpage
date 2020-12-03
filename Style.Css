@@ -12,7 +12,7 @@
 }
 /*============================{Footer [Start]}=========================*/
 .website_footer{
-    position: absolute;
+    position: relative;
     width: 100%;
     background-color: black;
     height: 40px;
